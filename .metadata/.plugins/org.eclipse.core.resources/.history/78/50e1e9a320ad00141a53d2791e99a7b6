@@ -1,0 +1,55 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Scanner;
+class Student {
+	
+    
+
+
+	public static void main(String[] args)throws NumberFormatException, IOException {
+		
+        Student maintain = new Student();     
+        InputStreamReader insr = new InputStreamReader(System.in);
+        BufferedReader br = new BufferedReader(insr);
+        Scanner input = new Scanner( System.in ); 
+    
+        int choice; 
+        String name,ID,course;
+        
+        do
+        {
+            System.out.println("    Student Record Menu"); 
+            System.out.println("1. New Record");
+            System.out.println("2. Display Records");
+            System.out.println("3. Quit");
+            System.out.print("Enter Choice : ");
+            choice = Integer.parseInt(br.readLine());            
+            switch (choice) 
+            {
+                case 1:
+                System.out.println("New Record: ");
+                System.out.println("Enter Student Name: ");
+                name = br.readLine();
+                System.out.println("Enter Student ID: ");
+                ID = br.readLine();
+                System.out.println("Enter course: ");
+                course = br.readLine();
+                break;
+                            
+                case 2:
+                	 System.out.println("Student Records");
+                     System.out.println("");
+                     System.out.println("Name:");
+                     System.out.println("Student ID:");
+                     System.out.println("Course:");
+                    
+                break;
+                default:
+                System.exit(0); 
+                break;
+            }
+        }   while(choice != 0); 
+		
+		    }
+}

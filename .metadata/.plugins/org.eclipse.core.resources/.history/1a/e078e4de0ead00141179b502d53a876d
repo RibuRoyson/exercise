@@ -1,0 +1,27 @@
+package trycatch;
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class sample {
+public static void main(String args[])
+{
+	try
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int a=sc.nextInt();
+		int b=a/0;
+		System.out.println("b is"+b);
+		
+	}catch(ArithmeticException e)
+	{
+		System.out.println("Cannot divisible by zero");
+	}
+	try
+	{
+		int a[]={1,2,3};
+		sy
+	}
+}
+}

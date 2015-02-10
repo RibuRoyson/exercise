@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;sample.java&apos; to &apos;Ribu/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;trycatch&apos;&#x0D;&#x0A;- Destination element: &apos;Ribu/src/(default package)&apos;&#x0D;&#x0A;- Original element: &apos;trycatch.sample.java&apos;" description="Copy compilation unit" destination="=Ribu/src&lt;" element1="/src&lt;trycatch{sample.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1423127723191" units="1" version="1.0"/>
+</session>
