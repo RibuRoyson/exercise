@@ -148,7 +148,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1.0"
-            android:src="@drawable/save" />
+            android:src="@drawable/save"
+           />
 
         <ImageButton
             android:id="@+id/imageButton2"
