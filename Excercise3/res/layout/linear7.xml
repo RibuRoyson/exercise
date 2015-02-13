@@ -62,7 +62,7 @@
 
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_width="wrap_content"
+            android:layout_width="20dp"
             android:layout_height="match_parent"
             android:layout_weight="1.49"
             android:scaleType="fitXY"
@@ -323,8 +323,8 @@
             android:layout_height="match_parent"
             android:src="@drawable/facebook" 
             android:background="#346AE6"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
             android:layout_weight="0.5"
             android:layout_marginRight="3dp"/>
 
@@ -334,8 +334,8 @@
             android:layout_height="match_parent"
             android:src="@drawable/google" 
             android:background="#F95530"
-            android:layout_marginTop="30dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
             android:layout_weight="0.5"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>

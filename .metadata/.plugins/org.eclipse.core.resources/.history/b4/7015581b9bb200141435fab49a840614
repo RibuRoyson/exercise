@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:weightSum="4.5"
+        >
+   
+        <TextView 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Photo editor"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:layout_weight="0.5"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_weight="1.5"
+           android:orientation="horizontal"
+           android:weightSum="2.0" 
+           android:padding="10dp">
+           
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_weight="1.00"
+               android:src="@drawable/streams" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.00"
+                android:src="@drawable/streams" />
+
+       </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1.5"
+       android:orientation="horizontal"
+       android:weightSum="2.0" >
+           
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="match_parent"
+               android:layout_weight="1.00"
+               android:src="@drawable/streams" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1.00"
+                android:src="@drawable/streams" />
+
+       </LinearLayout>
+        <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.5"
+       android:orientation="horizontal"
+       android:weightSum="3.0">
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings"
+                android:layout_weight="0.5"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:text="Select picture"
+                />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+        <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.5"
+       android:orientation="horizontal"
+       android:weightSum="3.0">
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings"
+                android:layout_weight="0.5"/>
+            <TextView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:text="Select picture"
+                />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/settings"
+                android:layout_weight="0.5"/>
+        </LinearLayout>
+   
+ 
+ </LinearLayout>
