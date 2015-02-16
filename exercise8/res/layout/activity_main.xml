@@ -4,151 +4,158 @@
     android:layout_height="match_parent" >
 
     <LinearLayout
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#B945BE"
+        android:orientation="horizontal"
+        android:weightSum="6.0" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.97"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2.98"
+            android:gravity="center|start"
+            android:text="Music"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:src="@drawable/ic_launcher" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.99"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textview_big"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionbar"
+        android:scrollbars="vertical"
+        android:background="#B945BE"
+        android:text="the dance can reaveal everything mysterious that is hidden in music. And it has the additional merit of being human and palpable.dancing is poetry with arms and legs."
+        android:textAllCaps="true"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:weightSum="5.5" >
+        android:background="#B945BE"
+        android:layout_above="@+id/footer"
+        android:layout_below="@+id/textview_big" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="0.5"
-            android:background="#B945BE"
-            android:orientation="horizontal" 
-            android:weightSum="6.0">
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="4.0" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.99" >
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0.97"
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_launcher" />
 
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="2.98"
-                android:gravity="center|start"
-                android:text="Music"
-                android:textSize="30sp" 
-                android:textColor="#ffffff"/>
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img"
+                android:layout_centerHorizontal="true"
+                android:text="Background" 
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.99" >
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0.99"
+                android:id="@+id/ImageView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_launcher" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_weight="0.99"
-                android:src="@drawable/ic_launcher" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="4.0"
-            android:background="#DA49E2"
-            android:orientation="vertical"
-            android:weightSum="5.0" >
 
             <TextView
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="4.0"
-                android:text="the dance can reaveal everything mysterious that is hidden in music. And it has the additional merit of being human and palpable.dancing is poetry with arms and legs."
-                android:textAllCaps="true"
-                android:textColor="#ffffff"
-                android:textSize="38sp"
-                android:textStyle="bold" />
-
-            <View
-                android:id="@+id/view1"
                 android:layout_width="wrap_content"
-                android:layout_height="0dp"
-                android:layout_weight="1.0" />
-        </LinearLayout>
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ImageView01"
+                android:layout_centerHorizontal="true"
+                android:text="TextStyle" 
+                 android:textStyle="bold"/>
+        </RelativeLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1.0"
-            android:orientation="vertical"
-            android:weightSum="2.0" >
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.99" >
 
-            <LinearLayout
+            <ImageView
+                android:id="@+id/ImageView02"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="1.5"
-                android:orientation="horizontal" 
-                android:weightSum="4.0"
-                >
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.99"
-                        android:src="@drawable/ic_launcher" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ImageView02"
+                android:layout_centerHorizontal="true"
+                android:text="Effects"
+                 android:textStyle="bold" />
+        </RelativeLayout>
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.99"
-                        android:src="@drawable/ic_launcher" />
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.99" >
 
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.99"
-                        android:src="@drawable/ic_launcher" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.99"
-                        android:src="@drawable/ic_launcher" />
-               
-            </LinearLayout>
-
-            <LinearLayout
+            <ImageView
+                android:id="@+id/ImageView03"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_weight="0.5"
-                android:orientation="horizontal" 
-                android:weightSum="4.0">
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_launcher" />
 
-               
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Backrround" 
-                        android:gravity="center"
-                        android:layout_centerHorizontal="true"
-                         android:layout_weight="1.0"/>
-                <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="TextStyle" 
-                         android:gravity="center"
-                         android:layout_weight="1.0"/>
-                <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Effects" 
-                         android:gravity="center"
-                         android:layout_weight="1.0"/>
-                <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Share" 
-                         android:gravity="center"
-                         android:layout_weight="1.0"/>
-             
-            </LinearLayout>
-        </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ImageView03"
+                android:layout_centerHorizontal="true"
+                android:text="Share" 
+                 android:textStyle="bold"/>
+        </RelativeLayout>
     </LinearLayout>
 
 </RelativeLayout>
